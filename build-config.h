@@ -88,7 +88,7 @@
 #define PACKAGE_NAME "gpredict"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "gpredict 2.3.12-420a"
+#define PACKAGE_STRING "gpredict 2.3.20-162f"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "gpredict"
@@ -97,10 +97,10 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "2.3.12-420a"
+#define PACKAGE_VERSION "2.3.20-162f"
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
 
 /* Version number of package */
-#define VERSION "2.3.12-420a"
+#define VERSION "2.3.20-162f"

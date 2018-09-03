@@ -1534,7 +1534,7 @@ static void gtk_rot_ctrl_init(GtkRotCtrl * ctrl)
 
     ctrl->tracking = FALSE;
     ctrl->engaged = FALSE;
-    ctrl->delay = 2000;
+    ctrl->delay = 1000;
     ctrl->timerid = 0;
     ctrl->tolerance = 0.5;
     ctrl->errcnt = 0;

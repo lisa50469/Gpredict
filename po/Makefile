@@ -19,7 +19,7 @@
 
 GETTEXT_PACKAGE = gpredict
 PACKAGE = gpredict
-VERSION = 2.3.12-420a
+VERSION = 2.3.20-162f
 
 SHELL = /bin/bash
 

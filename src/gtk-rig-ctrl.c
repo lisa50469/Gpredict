@@ -163,7 +163,7 @@ static void gtk_rig_ctrl_init(GtkRigCtrl * ctrl)
     ctrl->sock2 = 0;
     g_mutex_init(&(ctrl->busy));
     ctrl->engaged = FALSE;
-    ctrl->delay = 2000;
+    ctrl->delay = 1000;
     ctrl->timerid = 0;
     ctrl->errcnt = 0;
     ctrl->lastrxptt = FALSE;
@@ -2945,10 +2945,10 @@ GtkWidget      *gtk_rig_ctrl_new(GtkSatModule * module)
     gtk_grid_set_row_spacing(GTK_GRID(table), 5);
     gtk_grid_set_column_spacing(GTK_GRID(table), 5);
     gtk_container_set_border_width(GTK_CONTAINER(table), 10);
-    gtk_grid_attach(GTK_GRID(table), create_uplink_widgets(rigctrl),
-                    0, 0, 1, 1);
     gtk_grid_attach(GTK_GRID(table), create_downlink_widgets(rigctrl),
                     1, 0, 1, 1);
+    gtk_grid_attach(GTK_GRID(table), create_uplink_widgets(rigctrl),
+                    0, 0, 1, 1);
     gtk_grid_attach(GTK_GRID(table), create_target_widgets(rigctrl),
                     0, 1, 1, 1);
     gtk_grid_attach(GTK_GRID(table), create_conf_widgets(rigctrl), 1, 1, 1, 1);
