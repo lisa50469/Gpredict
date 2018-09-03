@@ -662,6 +662,8 @@ static GtkWidget *create_az_widgets(GtkRotCtrl * ctrl)
     ctrl->AzRead = gtk_label_new(" --- ");
     g_object_set(ctrl->AzRead, "xalign", 0.0f, "yalign", 0.5f, NULL);
     gtk_grid_attach(GTK_GRID(table), ctrl->AzRead, 1, 1, 1, 1);
+ //   gtk_grid_attach(GTK_GRID(table), create_count_down_widgets(rotctrl),
+//                    0, 2, 2, 1);
 
     return frame;
 }
